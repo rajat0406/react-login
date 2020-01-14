@@ -1,0 +1,16 @@
+ 
+  .Nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: lightblue;
+  }
+  
+  .nav-links{
+    width:58%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
