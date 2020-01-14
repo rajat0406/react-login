@@ -24,7 +24,7 @@ class LoginBox extends React.Component {
  submitHandler = e =>{
     e.preventDefault()
     console.log(this.state)
-    axios.post('http://test-java.extramarks.com/Extramarks-HOAdmin-Dev/hoadmin/login/login',this.state)
+    axios.post('//url or api',this.state)
     .then(response => {
      const dataSet =response;
      console.log( JSON.stringify(dataSet.data['status']));
